@@ -1,0 +1,79 @@
+/* Footer */
+
+.footer {
+    padding: 1.875rem 1.25rem;
+    color: #fff;
+    background-color: #333;
+    text-align: left;
+
+
+
+}
+
+.footer h2 {
+    margin-bottom: 1.25rem;
+    font-family: "Shrikhand", cursive;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 786px) {
+    .footer h2 {
+        margin: -3px 25px 0px 50px;
+        
+    }
+}
+
+.footer__nav {
+    margin: .625rem 0
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 1.875rem 1.25rem;
+        color: #fff;
+        background-color: #333;
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+}
+@media screen and (min-width: 786px) {
+    .footer__nav {
+        display: flex;
+        justify-content: center
+    }
+}
+
+.footer__nav li {
+    margin-bottom: .1875rem
+}
+
+@media screen and (min-width: 786px) {
+    .footer__nav li {
+    
+        display: flex
+    }
+}
+
+.footer__nav li:nth-child(1)::before {
+    content: "";
+    font-family: "FontAwesome";
+    margin-right: .625rem;
+    font-size: clamp(1.3rem, 2vw, 1.7rem)
+}
+
+.footer__nav li:nth-child(2)::before {
+    content: "";
+    font-family: "FontAwesome";
+    margin-right: .625rem;
+    font-size: clamp(1.3rem, 2vw, 1.7rem)
+}
+
+.footer__nav li a {
+    transition: color .4s ease-in-out
+}
+
+.footer__nav li a:hover,
+.footer__nav li a:focus {
+    color: #a16be0
+}

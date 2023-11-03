@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Composez votre propre menu et réduisez votre temps d'attente au restaurant !">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohmyfood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader__ring"></div>
+        <p class="loader__txt">Chargement...</p>
+    </div>
+    <!-- Header -->
+
+    <header class="header">
+        <h1>ohmyfood</h1>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <div class="main__location">
+            <p>Paris, Belleville</p>
+        </div>
+        <section class="main__description">
+            <h2 class="main__description__title">Réservez le menu qui vous convient</h2>
+            <p class="main__description__text">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+            <a class="main__description__btn" href="#restaurants">Explorer nos restaurants</a>
+        </section>
+        <section class="main__process">
+            <h2>Fonctionnement</h2>
+            <div class="main__process__steps">
+                <div tabindex="0" class="main__process__step">
+                    <div>1</div>
+                    <p>Choisissez un restaurant</p>
+                </div>
+                <div tabindex="0" class="main__process__step">
+                    <p>Composez votre menu</p>
+                    <div>2</div>
+                </div>
+                <div tabindex="0" class="main__process__step">
+                    <p>Dégustez au restaurant</p>
+                    <div>3</div>
+                </div>
+            </div>
+        </section>
+        <section class="main__restaurant">
+            <h2 id="restaurants">Restaurants</h2>
+            <div class="cards">
+                <div class="card">
+                        <span class="new-label">Nouveau</span>
+                        <a href="pages/laPaletteDugout.html">
+                            <figure>
+                                <img src="https://i.postimg.cc/YSw5JJq6/jay-wennington-N-Y88-TWm-Gw-A-unsplash-large.jpg"
+                                     alt="Plat sur plaque en céramique blanche">
+                            </figure>
+                        </a>
+                        <div class="card__info">
+                            <h3>La palette du goût</h3>
+                            <p>Ménilmontant</p>
+                        </div>
+                            <label for="heart_toggle_2" class="heart_toggle">
+                            <input type="checkbox" class="hide_checkbox" id="heart_toggle_2">
+                            <img class="heart_logo" src="assets/images/heart.svg" alt="logo coeur">
+                            <img class="heart_filled" src="assets/images/Like.svg" alt="coeur plein">
+                            </label>
+                </div>
+                <div class="card">
+                    <a href="pages/laNoteEnchantee.html">
+                        <span class="new-label">Nouveau</span>
+                        <figure>
+                            <img src="https://i.postimg.cc/Qts2fbLx/stil-u2-Lp8t-XIcjw-unsplash-medium.jpg"
+                                 alt="Boulettes de viande sur une plaque en céramique blanche">
+                        </figure>
+                        <div class="card__info">
+                            <h3>La note enchantée</h3>
+                            <p>Charonne</p>
+                        </div>
+                    </a>
+                        <label for="heart_toggle_3" class="heart_toggle">
+                        <input type="checkbox" class="hide_checkbox" id="heart_toggle_3">
+                        <img class="heart_logo" src="assets/images/heart.svg" alt="logo coeur">
+                        <img class="heart_filled" src="assets/images/Like.svg" alt="coeur plein">
+                        </label>    
+                </div>
+                <div class="card">
+                    <a href="pages/aLaFrancaise.html">
+                        <figure>
+                            <img src="https://i.postimg.cc/Bvq6K2hH/toa-heftiba-DQKer-Ts-Qwi0-unsplash-medium.jpg"
+                                 alt="viande crue avec crème et légumes feuillus">
+                        </figure>
+                        <div class="card__info">
+                            <h3>À la française</h3>
+                            <p>Cité Rouge</p>
+                        </div>
+                    </a>
+                        <label for="heart_toggle_4" class="heart_toggle">
+                        <input type="checkbox" class="hide_checkbox" id="heart_toggle_4">
+                        <img class="heart_logo" src="assets/images/heart.svg" alt="logo coeur">
+                        <img class="heart_filled" src="assets/images/Like.svg" alt="coeur plein">
+                        </label>
+                </div>
+                <div class="card">
+                    <a href="pages/leDeliceDesSens.html">
+                        <figure>
+                            <img src="https://i.postimg.cc/T2F6NXTN/louis-hansel-shotsoflouis-q-NBGVy-OCY8-Q-unsplash-large.jpg"
+                                 alt="Dos de cabillaud sur lit de légumes">
+                        </figure>
+                        <div class="card__info">
+                                <h3>Le délice des sens</h3>
+                                <p>Folie-Méricourt</p>
+                        </div>
+                    </a>
+                        <label for="heart_toggle_5" class="heart_toggle">
+                        <input type="checkbox" class="hide_checkbox" id="heart_toggle_5">
+                        <img class="heart_logo" src="assets/images/heart.svg" alt="logo coeur">
+                        <img class="heart_filled" src="assets/images/Like.svg" alt="coeur plein">
+                        </label>                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2>ohmyfood</h2>
+        <ul class="footer__nav">
+            <li>
+                <a href="#">Proposer un restaurant</a>
+            </li>
+            <li>
+                <a href="#">Devenir partenaire</a>
+            </li>
+            <li>
+                <a href="#">Mentions légales</a>
+            </li>
+            <li>
+                <a href="mailto:adresse@serveur.com">Contact</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
