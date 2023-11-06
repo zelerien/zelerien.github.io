@@ -39,6 +39,7 @@
 }
 @media screen and (min-width: 786px) {
     .footer__nav {
+        gap: 10px;
         display: flex;
         justify-content: center
     }
